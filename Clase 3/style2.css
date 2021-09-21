@@ -1,0 +1,78 @@
+/* 
+
+* selector universal
+ni google opera o safari me de margenes o padding por defatult
+
+*{
+    margin 0; padding 0
+}
+
+
+*/
+
+
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+body{
+    background: tomato;
+
+    background-image: url(https://images.ole.com.ar/2021/08/06/x3hDY8_kE_720x0__1.jpg);
+}
+/* cualquiera de las 2 opciones */
+body{
+    background-color: tomato;
+}
+
+.cursiva{
+    font-style: italic;
+}
+
+.tercerparrafo{
+    font-style: italic;
+}
+
+#contenedor{
+    background: white;
+    width: 90%;
+    /* tambien width: 300px; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 30px;
+    padding-bottom: 150px;
+background-image: url();
+    
+}
+
+.pie{
+    border-top: 20px solid black;
+}
+
+.cabecera{
+    border: dashed 1px red
+}
+
+.titulo{
+text-align: center;
+color: blueviolet;
+  }
+
+.contenido{
+    text-align: justify;
+    }
+.destacado{
+    color: tomato;
+    font-size: 2em;  /* o en px 1em=16px 2em"=2  o rem a css */
+    }
+
+    .tercerparrafo{
+        background: yellow
+        ;
+    }
+
+
+
